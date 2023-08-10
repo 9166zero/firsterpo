@@ -1,0 +1,497 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:67 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "G:/zx/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "G:/zx/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:67 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2023/5/30 0:27:57。
+      节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.86
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "G:/zx/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:67 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-b6fbrf"
+      binary: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-b6fbrf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "H:/cmy/123/jsoncpp-master/cmake"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-b6fbrf
+        
+        Run Build Command(s):F:/c++vs az/MSBuild/Current/Bin/MSBuild.exe cmTC_eb6b6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/30 0:27:59。
+        节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-b6fbrf\\cmTC_eb6b6.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_eb6b6.dir\\Debug\\”。
+          正在创建目录“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-b6fbrf\\Debug\\”。
+          正在创建目录“cmTC_eb6b6.dir\\Debug\\cmTC_eb6b6.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_eb6b6.dir\\Debug\\cmTC_eb6b6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eb6b6.dir\\Debug\\\\" /Fd"cmTC_eb6b6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\zx\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eb6b6.dir\\Debug\\\\" /Fd"cmTC_eb6b6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\zx\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-b6fbrf\\Debug\\cmTC_eb6b6.exe" /INCREMENTAL /ILK:"cmTC_eb6b6.dir\\Debug\\cmTC_eb6b6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-b6fbrf/Debug/cmTC_eb6b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-b6fbrf/Debug/cmTC_eb6b6.lib" /MACHINE:X64  /machine:x64 cmTC_eb6b6.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_eb6b6.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-b6fbrf\\Debug\\cmTC_eb6b6.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_eb6b6.dir\\Debug\\cmTC_eb6b6.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_eb6b6.dir\\Debug\\cmTC_eb6b6.tlog\\cmTC_eb6b6.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-b6fbrf\\cmTC_eb6b6.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.11
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "src/lib_json/CMakeLists.txt:11 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include clocale"
+    directories:
+      source: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-7vlp0x"
+      binary: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-7vlp0x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "H:/cmy/123/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_CLOCALE"
+      cached: true
+      stdout: |
+        Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-7vlp0x
+        
+        Run Build Command(s):F:/c++vs az/MSBuild/Current/Bin/MSBuild.exe cmTC_fdc22.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/30 0:28:01。
+        节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-7vlp0x\\cmTC_fdc22.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_fdc22.dir\\Debug\\”。
+          正在创建目录“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-7vlp0x\\Debug\\”。
+          正在创建目录“cmTC_fdc22.dir\\Debug\\cmTC_fdc22.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_fdc22.dir\\Debug\\cmTC_fdc22.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fdc22.dir\\Debug\\\\" /Fd"cmTC_fdc22.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-7vlp0x\\CheckIncludeFile.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fdc22.dir\\Debug\\\\" /Fd"cmTC_fdc22.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-7vlp0x\\CheckIncludeFile.cxx"
+        Link:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-7vlp0x\\Debug\\cmTC_fdc22.exe" /INCREMENTAL /ILK:"cmTC_fdc22.dir\\Debug\\cmTC_fdc22.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-7vlp0x/Debug/cmTC_fdc22.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-7vlp0x/Debug/cmTC_fdc22.lib" /MACHINE:X64  /machine:x64 cmTC_fdc22.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_fdc22.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-7vlp0x\\Debug\\cmTC_fdc22.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_fdc22.dir\\Debug\\cmTC_fdc22.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_fdc22.dir\\Debug\\cmTC_fdc22.tlog\\cmTC_fdc22.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-7vlp0x\\cmTC_fdc22.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.10
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "G:/zx/share/cmake-3.26/Modules/CheckCXXSymbolExists.cmake:77 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "src/lib_json/CMakeLists.txt:12 (check_cxx_symbol_exists)"
+    checks:
+      - "Looking for localeconv"
+    directories:
+      source: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-0pgmks"
+      binary: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-0pgmks"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "H:/cmy/123/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-0pgmks
+        
+        Run Build Command(s):F:/c++vs az/MSBuild/Current/Bin/MSBuild.exe cmTC_1895e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/30 0:28:02。
+        节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-0pgmks\\cmTC_1895e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_1895e.dir\\Debug\\”。
+          正在创建目录“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-0pgmks\\Debug\\”。
+          正在创建目录“cmTC_1895e.dir\\Debug\\cmTC_1895e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_1895e.dir\\Debug\\cmTC_1895e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1895e.dir\\Debug\\\\" /Fd"cmTC_1895e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-0pgmks\\CheckSymbolExists.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_1895e.dir\\Debug\\\\" /Fd"cmTC_1895e.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-0pgmks\\CheckSymbolExists.cxx"
+        Link:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-0pgmks\\Debug\\cmTC_1895e.exe" /INCREMENTAL /ILK:"cmTC_1895e.dir\\Debug\\cmTC_1895e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-0pgmks/Debug/cmTC_1895e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-0pgmks/Debug/cmTC_1895e.lib" /MACHINE:X64  /machine:x64 cmTC_1895e.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_1895e.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-0pgmks\\Debug\\cmTC_1895e.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_1895e.dir\\Debug\\cmTC_1895e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_1895e.dir\\Debug\\cmTC_1895e.tlog\\cmTC_1895e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-0pgmks\\cmTC_1895e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.10
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "G:/zx/share/cmake-3.26/Modules/CheckTypeSize.cmake:256 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include sys/types.h"
+    directories:
+      source: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-lmzx01"
+      binary: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-lmzx01"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "H:/cmy/123/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-lmzx01
+        
+        Run Build Command(s):F:/c++vs az/MSBuild/Current/Bin/MSBuild.exe cmTC_4763a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/30 0:28:04。
+        节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-lmzx01\\cmTC_4763a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_4763a.dir\\Debug\\”。
+          正在创建目录“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-lmzx01\\Debug\\”。
+          正在创建目录“cmTC_4763a.dir\\Debug\\cmTC_4763a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_4763a.dir\\Debug\\cmTC_4763a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4763a.dir\\Debug\\\\" /Fd"cmTC_4763a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-lmzx01\\CheckIncludeFile.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4763a.dir\\Debug\\\\" /Fd"cmTC_4763a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-lmzx01\\CheckIncludeFile.cxx"
+        Link:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-lmzx01\\Debug\\cmTC_4763a.exe" /INCREMENTAL /ILK:"cmTC_4763a.dir\\Debug\\cmTC_4763a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-lmzx01/Debug/cmTC_4763a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-lmzx01/Debug/cmTC_4763a.lib" /MACHINE:X64  /machine:x64 cmTC_4763a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4763a.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-lmzx01\\Debug\\cmTC_4763a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_4763a.dir\\Debug\\cmTC_4763a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_4763a.dir\\Debug\\cmTC_4763a.tlog\\cmTC_4763a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-lmzx01\\cmTC_4763a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.09
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "G:/zx/share/cmake-3.26/Modules/CheckTypeSize.cmake:261 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include stdint.h"
+    directories:
+      source: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-5e4we6"
+      binary: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-5e4we6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "H:/cmy/123/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-5e4we6
+        
+        Run Build Command(s):F:/c++vs az/MSBuild/Current/Bin/MSBuild.exe cmTC_49be1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/30 0:28:05。
+        节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-5e4we6\\cmTC_49be1.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_49be1.dir\\Debug\\”。
+          正在创建目录“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-5e4we6\\Debug\\”。
+          正在创建目录“cmTC_49be1.dir\\Debug\\cmTC_49be1.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_49be1.dir\\Debug\\cmTC_49be1.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_49be1.dir\\Debug\\\\" /Fd"cmTC_49be1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-5e4we6\\CheckIncludeFile.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_49be1.dir\\Debug\\\\" /Fd"cmTC_49be1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-5e4we6\\CheckIncludeFile.cxx"
+        Link:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-5e4we6\\Debug\\cmTC_49be1.exe" /INCREMENTAL /ILK:"cmTC_49be1.dir\\Debug\\cmTC_49be1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-5e4we6/Debug/cmTC_49be1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-5e4we6/Debug/cmTC_49be1.lib" /MACHINE:X64  /machine:x64 cmTC_49be1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_49be1.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-5e4we6\\Debug\\cmTC_49be1.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_49be1.dir\\Debug\\cmTC_49be1.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_49be1.dir\\Debug\\cmTC_49be1.tlog\\cmTC_49be1.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-5e4we6\\cmTC_49be1.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.09
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake:94 (try_compile)"
+      - "G:/zx/share/cmake-3.26/Modules/CheckTypeSize.cmake:262 (check_include_file_cxx)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Looking for C++ include stddef.h"
+    directories:
+      source: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-mzq3ts"
+      binary: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-mzq3ts"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "H:/cmy/123/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-mzq3ts
+        
+        Run Build Command(s):F:/c++vs az/MSBuild/Current/Bin/MSBuild.exe cmTC_cc0b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/30 0:28:07。
+        节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-mzq3ts\\cmTC_cc0b1.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_cc0b1.dir\\Debug\\”。
+          正在创建目录“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-mzq3ts\\Debug\\”。
+          正在创建目录“cmTC_cc0b1.dir\\Debug\\cmTC_cc0b1.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_cc0b1.dir\\Debug\\cmTC_cc0b1.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc0b1.dir\\Debug\\\\" /Fd"cmTC_cc0b1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-mzq3ts\\CheckIncludeFile.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc0b1.dir\\Debug\\\\" /Fd"cmTC_cc0b1.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-mzq3ts\\CheckIncludeFile.cxx"
+        Link:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-mzq3ts\\Debug\\cmTC_cc0b1.exe" /INCREMENTAL /ILK:"cmTC_cc0b1.dir\\Debug\\cmTC_cc0b1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-mzq3ts/Debug/cmTC_cc0b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-mzq3ts/Debug/cmTC_cc0b1.lib" /MACHINE:X64  /machine:x64 cmTC_cc0b1.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_cc0b1.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-mzq3ts\\Debug\\cmTC_cc0b1.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_cc0b1.dir\\Debug\\cmTC_cc0b1.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_cc0b1.dir\\Debug\\cmTC_cc0b1.tlog\\cmTC_cc0b1.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-mzq3ts\\cmTC_cc0b1.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.08
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "G:/zx/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "src/lib_json/CMakeLists.txt:15 (check_type_size)"
+    checks:
+      - "Check size of lconv"
+    directories:
+      source: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-upky9e"
+      binary: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-upky9e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "H:/cmy/123/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_LCONV_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-upky9e
+        
+        Run Build Command(s):F:/c++vs az/MSBuild/Current/Bin/MSBuild.exe cmTC_772aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/30 0:28:08。
+        节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-upky9e\\cmTC_772aa.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_772aa.dir\\Debug\\”。
+          正在创建目录“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-upky9e\\Debug\\”。
+          正在创建目录“cmTC_772aa.dir\\Debug\\cmTC_772aa.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_772aa.dir\\Debug\\cmTC_772aa.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_772aa.dir\\Debug\\\\" /Fd"cmTC_772aa.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-upky9e\\LCONV_SIZE.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          LCONV_SIZE.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_772aa.dir\\Debug\\\\" /Fd"cmTC_772aa.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-upky9e\\LCONV_SIZE.cpp"
+        Link:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-upky9e\\Debug\\cmTC_772aa.exe" /INCREMENTAL /ILK:"cmTC_772aa.dir\\Debug\\cmTC_772aa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-upky9e/Debug/cmTC_772aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-upky9e/Debug/cmTC_772aa.lib" /MACHINE:X64  /machine:x64 cmTC_772aa.dir\\Debug\\LCONV_SIZE.obj
+          cmTC_772aa.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-upky9e\\Debug\\cmTC_772aa.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_772aa.dir\\Debug\\cmTC_772aa.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_772aa.dir\\Debug\\cmTC_772aa.tlog\\cmTC_772aa.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-upky9e\\cmTC_772aa.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.07
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "G:/zx/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "G:/zx/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "G:/zx/share/cmake-3.26/Modules/CheckStructHasMember.cmake:83 (CHECK_CXX_SOURCE_COMPILES)"
+      - "src/lib_json/CMakeLists.txt:17 (check_struct_has_member)"
+    checks:
+      - "Performing Test HAVE_DECIMAL_POINT"
+    directories:
+      source: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-eklbb8"
+      binary: "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-eklbb8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "H:/cmy/123/jsoncpp-master/cmake"
+    buildResult:
+      variable: "HAVE_DECIMAL_POINT"
+      cached: true
+      stdout: |
+        Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-eklbb8
+        
+        Run Build Command(s):F:/c++vs az/MSBuild/Current/Bin/MSBuild.exe cmTC_b82e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2023/5/30 0:28:10。
+        节点 1 上的项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-eklbb8\\cmTC_b82e3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b82e3.dir\\Debug\\”。
+          正在创建目录“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-eklbb8\\Debug\\”。
+          正在创建目录“cmTC_b82e3.dir\\Debug\\cmTC_b82e3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b82e3.dir\\Debug\\cmTC_b82e3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b82e3.dir\\Debug\\\\" /Fd"cmTC_b82e3.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-eklbb8\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_DECIMAL_POINT /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b82e3.dir\\Debug\\\\" /Fd"cmTC_b82e3.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-eklbb8\\src.cxx"
+        Link:
+          F:\\c++vs az\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-eklbb8\\Debug\\cmTC_b82e3.exe" /INCREMENTAL /ILK:"cmTC_b82e3.dir\\Debug\\cmTC_b82e3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-eklbb8/Debug/cmTC_b82e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/123/111/CMakeFiles/CMakeScratch/TryCompile-eklbb8/Debug/cmTC_b82e3.lib" /MACHINE:X64  /machine:x64 cmTC_b82e3.dir\\Debug\\src.obj
+          cmTC_b82e3.vcxproj -> G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-eklbb8\\Debug\\cmTC_b82e3.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_b82e3.dir\\Debug\\cmTC_b82e3.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_b82e3.dir\\Debug\\cmTC_b82e3.tlog\\cmTC_b82e3.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“G:\\2023startc++linux\\ConsoleApplication1\\ConsoleApplication1\\jsoncpp\\123\\111\\CMakeFiles\\CMakeScratch\\TryCompile-eklbb8\\cmTC_b82e3.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.08
+        
+      exitCode: 0
+...

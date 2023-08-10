@@ -1,0 +1,143 @@
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: F:/c++vs az/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is MSVC, found in "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: F:/c++vs az/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30146 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30146.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is MSVC, found in "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/3.20.21032501-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_60a71 && [1/2] Building C object CMakeFiles\cmTC_60a71.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_60a71.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b76a9 && [1/2] Building CXX object CMakeFiles\cmTC_b76a9.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_b76a9.exe
+
+
+
+Determining if the include file clocale exists passed with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_dedae && [1/2] Building CXX object CMakeFiles\cmTC_dedae.dir\CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_dedae.exe
+
+
+
+Determining if the localeconv exist passed with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_ebeeb && [1/2] Building CXX object CMakeFiles\cmTC_ebeeb.dir\CheckSymbolExists.cxx.obj
+[2/2] Linking CXX executable cmTC_ebeeb.exe
+
+
+File G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <clocale>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef localeconv
+  return ((int*)(&localeconv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_77bfa && [1/2] Building CXX object CMakeFiles\cmTC_77bfa.dir\CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_77bfa.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_84d38 && [1/2] Building CXX object CMakeFiles\cmTC_84d38.dir\CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_84d38.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8a744 && [1/2] Building CXX object CMakeFiles\cmTC_8a744.dir\CheckIncludeFile.cxx.obj
+[2/2] Linking CXX executable cmTC_8a744.exe
+
+
+
+Determining size of lconv passed with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_a47a2 && [1/2] Building CXX object CMakeFiles\cmTC_a47a2.dir\LCONV_SIZE.cpp.obj
+[2/2] Linking CXX executable cmTC_a47a2.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_DECIMAL_POINT succeeded with the following output:
+Change Dir: G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):F:/c++vs az/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_41bdd && [1/2] Building CXX object CMakeFiles\cmTC_41bdd.dir\src.cxx.obj
+[2/2] Linking CXX executable cmTC_41bdd.exe
+
+
+Source file was:
+
+#include <clocale>
+
+int main()
+{
+  (void)sizeof(((lconv *)0)->decimal_point);
+  return 0;
+}
+

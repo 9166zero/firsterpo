@@ -1,0 +1,38 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : "."
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json/out/build/x64-Debug",
+		"source" : "G:/2023startc++linux/ConsoleApplication1/ConsoleApplication1/jsoncpp/jsoncpp-master/src/lib_json"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

@@ -1,0 +1,131 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.11.137”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  tcplogserver.cpp
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(51,63): warning : cast to pointer from integer of different size [-Wint-to-pointer-cast]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(51,63): warning :    setsockopt(socketfd, SOL_SOCKET, SO_REUSEADDR, (const void*)opt_val, sizeof(opt_val));
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(51,63): warning :                                                                ^~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(42,15): warning : unused variable ‘resip’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(42,15): warning :    const char* resip = inet_ntop(AF_INET, &(s_addr.sin_addr), ipAddress, INET_ADDRSTRLEN);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(42,15): warning :                ^~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(167,32): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(167,32): warning :         int bytesReceived = recv(client_fd, buffer + totalReceived, 65600 - totalReceived, 0);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(167,32): warning :                             ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(197,21): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(197,21): warning :        int res = read(client_fd, &user, head.businessLength);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(197,21): warning :                  ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(216,21): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(216,21): warning :        int res = read(client_fd, &tempfileinfo, head.businessLength);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(216,21): warning :                  ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(233,21): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(233,21): warning :        int res = read(client_fd, &tempfileinfo, head.businessLength);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(233,21): warning :                  ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(250,21): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(250,21): warning :        int res = read(client_fd, &regiserinfo, head.businessLength);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(250,21): warning :                  ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(308,8): warning : unused variable ‘a’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(308,8): warning :    bool a = adduserinfotosql(pool, 0, 1, username, userpwd, phone);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(308,8): warning :         ^
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(313,11): warning : conversion to ‘unsigned int’ alters ‘double’ constant value [-Wfloat-conversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(313,11): warning :   sleep(0.5);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(313,11): warning :            ^
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(361,27): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(361,27): warning :   while ((bytesRead = fread(buffersend, 1, sizeof(buffersend), fp)) > 0)
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(361,27): warning :                       ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(408,19): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(408,19): warning :    bytesRead = read(fd, buffer, sizeof(buffer));
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(408,19): warning :                ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(453,12): warning : conversion to ‘unsigned int’ alters ‘double’ constant value [-Wfloat-conversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(453,12): warning :    sleep(0.5);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(453,12): warning :             ^
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(542,17): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(551,18): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(551,18): warning :     if (bytesRead != fileSize)
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(551,18): warning :         ~~~~~~~~~~^~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(557,23): warning : conversion to ‘unsigned int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(557,23): warning :     user.avatar_size = bytesRead;  // 更新实际读取的大小
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(557,23): warning :                        ^~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(521,10): warning : unused variable ‘searchKey’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(521,10): warning :     char* searchKey = charPtr;
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(521,10): warning :           ^~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(524,8): warning : unused variable ‘afd’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(524,8): warning :     int afd = fd;
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(524,8): warning :         ^~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(627,14): warning : conversion to ‘unsigned int’ alters ‘double’ constant value [-Wfloat-conversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(627,14): warning :      sleep(0.5);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(627,14): warning :               ^
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(619,9): warning : unused variable ‘port’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(619,9): warning :      int port = it->second.oport;
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(619,9): warning :          ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(633,34): warning : conversion to ‘int’ from ‘std::map<std::__cxx11::basic_string<char>, onlineuserip>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(633,34): warning :    userList.count = onlinemap.size();
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(633,34): warning :                     ~~~~~~~~~~~~~~^~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(495,9): warning : unused variable ‘head’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(495,9): warning :   HEAD_T head = {  };//协议头
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(495,9): warning :          ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(497,12): warning : unused variable ‘buf’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(497,12): warning :   CHATMSG_T buf = {  };//协议体
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(497,12): warning :             ^~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(499,13): warning : unused variable ‘risinfo’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(499,13): warning :   USERRISTER risinfo = {  };//用户注册信息
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(499,13): warning :              ^~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(733,14): warning : conversion to ‘unsigned int’ alters ‘double’ constant value [-Wfloat-conversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(733,14): warning :      sleep(0.5);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(733,14): warning :               ^
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(725,9): warning : unused variable ‘port’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(725,9): warning :      int port = it->second.oport;
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(725,9): warning :          ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(690,15): warning : unused variable ‘oipinfo’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(690,15): warning :   ONLINEUSERIP oipinfo = {  };//上线用户的ip等信息
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(690,15): warning :                ^~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(691,9): warning : unused variable ‘head’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(691,9): warning :   HEAD_T head = {  };//协议头
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(691,9): warning :          ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(693,12): warning : unused variable ‘buf’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(693,12): warning :   CHATMSG_T buf = {  };//协议体
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(693,12): warning :             ^~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(694,13): warning : unused variable ‘back’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(694,13): warning :   FEEDBACK_T back = {  };//反馈体
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(694,13): warning :              ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(695,13): warning : unused variable ‘risinfo’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(695,13): warning :   USERRISTER risinfo = {  };//用户注册信息
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(695,13): warning :              ^~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(790,33): warning : conversion to ‘int’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(790,33): warning :     int rowCount = mysql_num_rows(conn->getresult());
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(790,33): warning :                    ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(842,33): warning : conversion to ‘int’ from ‘my_ulonglong {aka long long unsigned int}’ may alter its value [-Wconversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(842,33): warning :     int rowCount = mysql_num_rows(conn->getresult());
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(842,33): warning :                    ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(944,14): warning : conversion to ‘unsigned int’ alters ‘double’ constant value [-Wfloat-conversion]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(944,14): warning :      sleep(0.5);
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(944,14): warning :               ^
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(936,9): warning : unused variable ‘port’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(936,9): warning :      int port = it->second.oport;
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(936,9): warning :          ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(891,15): warning : unused variable ‘oipinfo’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(891,15): warning :   ONLINEUSERIP oipinfo = {  };//上线用户的ip等信息
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(891,15): warning :                ^~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(892,9): warning : unused variable ‘head’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(892,9): warning :   HEAD_T head = {  };//协议头
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(892,9): warning :          ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(893,13): warning : unused variable ‘user’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(893,13): warning :   USERINFO_T user = {  };//协议体
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(893,13): warning :              ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(894,12): warning : unused variable ‘buf’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(894,12): warning :   CHATMSG_T buf = {  };//协议体
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(894,12): warning :             ^~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(895,13): warning : unused variable ‘back’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(895,13): warning :   FEEDBACK_T back = {  };//反馈体
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(895,13): warning :              ^~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(896,13): warning : unused variable ‘risinfo’ [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(896,13): warning :   USERRISTER risinfo = {  };//用户注册信息
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.cpp(896,13): warning :              ^~~~~~~
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.h(62,14): warning : ‘void* pthread_function(std::unique_ptr<ThreadArgs>)’ declared ‘static’ but never defined [-Wunused-function]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.h(18,13): warning : ‘hasphone’ defined but not used [-Wunused-variable]
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.h(18,13): warning :  static bool hasphone;
+G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\tcplogserver.h(18,13): warning :              ^~~~~~~~
+  正在链接对象
+  ConsoleApplication1.vcxproj -> G:\2023startc++linux\ConsoleApplication1\ConsoleApplication1\bin\x64\Debug\databaset.out

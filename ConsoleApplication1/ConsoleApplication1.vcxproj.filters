@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="connectionpool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlclass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tcplogserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="connectionpool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mysqlclass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tcplogserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{c6e925a0-3e74-4a53-a042-e894e479868d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{697931aa-5223-45f3-bac6-e2afa08623b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杂项文件">
+      <UniqueIdentifier>{dd3bf565-2eb9-4b2d-affa-b5057a7bd3e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbconf.json">
+      <Filter>杂项文件</Filter>
+    </None>
+    <None Include="jsoncpp.dll">
+      <Filter>杂项文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

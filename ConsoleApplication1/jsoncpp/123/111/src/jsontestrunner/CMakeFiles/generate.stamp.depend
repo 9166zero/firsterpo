@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+G:/zx/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+G:/zx/share/cmake-3.26/Modules/FindPackageMessage.cmake
+G:/zx/share/cmake-3.26/Modules/FindPython/Support.cmake
+G:/zx/share/cmake-3.26/Modules/FindPython3.cmake
+H:/cmy/123/jsoncpp-master/src/jsontestrunner/CMakeLists.txt
